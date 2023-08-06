@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Free texture packer v0.6.7 http://free-tex-packer.com -->
+<TextureAtlas imagePath="Menu_Allegro.png" width="1548" height="406">
+  <SubTexture name="robot black lines0000" x="4" y="4" width="161" height="391" frameX="-1" frameY="-6" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0001" x="173" y="4" width="162" height="392" frameX="-1" frameY="-5" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0002" x="343" y="4" width="163" height="394" frameX="-1" frameY="-3" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0003" x="514" y="4" width="163" height="396" frameX="-1" frameY="-2" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0004" x="685" y="4" width="164" height="396" frameX="-1" frameY="-2" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0005" x="857" y="4" width="165" height="397" frameX="-0" frameY="-1" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0006" x="1030" y="4" width="166" height="397" frameX="-0" frameY="-1" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0007" x="1204" y="4" width="166" height="398" frameX="-0" frameY="-0" frameWidth="166" frameHeight="398" />
+  <SubTexture name="robot black lines0008" x="1378" y="4" width="166" height="398" frameX="-0" frameY="-0" frameWidth="166" frameHeight="398" />
+</TextureAtlas>

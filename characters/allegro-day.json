@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AL idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AL left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AL down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AL up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AL right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/allegroDay",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "allegro",
+	"flip_x": false,
+	"healthbar_colors": [
+		167,
+		255,
+		196
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 3.10000000000001,
+	"scale": 1
+}

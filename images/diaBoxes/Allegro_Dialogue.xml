@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Free texture packer v0.6.7 http://free-tex-packer.com -->
+<TextureAtlas imagePath="Allegro_Dialogue.png" width="6974" height="2310">
+  <SubTexture name="describing bg0000" x="4" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="describing bg0001" x="638" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="describing bg0002" x="1272" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="describing bg0003" x="1906" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="evil neutral0000" x="2540" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="evil neutral0001" x="3174" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="evil neutral0002" x="3808" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="evil neutral0003" x="4442" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="excited 0000" x="5076" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="excited 0001" x="5710" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="excited 0002" x="6344" y="4" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="excited 0003" x="4" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="neutral 0000" x="638" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="neutral 0001" x="1272" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="neutral 0002" x="1906" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="neutral 0003" x="2540" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="pointing at himself0000" x="3174" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="pointing at himself0001" x="3808" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="pointing at himself0002" x="4442" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="pointing at himself0003" x="5076" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="sassy 0000" x="5710" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="sassy 0001" x="6344" y="466" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="sassy 0002" x="4" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="sassy 0003" x="638" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil neutral0000" x="1272" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil neutral0001" x="1906" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil neutral0002" x="2540" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil neutral0003" x="3174" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil talking0000" x="3808" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil talking0001" x="4442" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil talking0002" x="5076" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="semi-evil talking0003" x="5710" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking alt0000" x="6344" y="928" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking alt0001" x="4" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking alt0002" x="638" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking alt0003" x="1272" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0000" x="1906" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0001" x="2540" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0002" x="3174" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0003" x="3808" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0004" x="4442" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0005" x="5076" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0006" x="5710" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0007" x="6344" y="1390" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0008" x="4" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0009" x="638" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0010" x="1272" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0011" x="1906" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0012" x="2540" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0013" x="3174" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking evil glow0014" x="3808" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking neutral0000" x="4442" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking neutral0001" x="5076" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking neutral0002" x="5710" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+  <SubTexture name="talking neutral0003" x="6344" y="1852" width="626" height="454" frameX="-0" frameY="-0" frameWidth="626" frameHeight="454" />
+</TextureAtlas>

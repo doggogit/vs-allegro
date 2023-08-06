@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Free texture packer v0.6.7 http://free-tex-packer.com -->
+<TextureAtlas imagePath="allegroDay.png" width="5070" height="2919">
+  <SubTexture name="AL down0000" x="4" y="4" width="534" height="922" frameX="-7" frameY="-68" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL down0001" x="546" y="4" width="526" height="927" frameX="-7" frameY="-62" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL down0002" x="1080" y="4" width="520" height="932" frameX="-7" frameY="-57" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL down0003" x="1608" y="4" width="520" height="934" frameX="-7" frameY="-55" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL down0004" x="2136" y="4" width="520" height="935" frameX="-7" frameY="-54" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0000" x="2664" y="4" width="384" height="937" frameX="-197" frameY="-51" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0001" x="3056" y="4" width="386" height="940" frameX="-197" frameY="-48" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL right0000" x="3450" y="4" width="602" height="942" frameX="-74" frameY="-46" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL right0001" x="4060" y="4" width="610" height="942" frameX="-68" frameY="-46" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0002" x="4678" y="4" width="388" height="944" frameX="-197" frameY="-44" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0003" x="4" y="934" width="395" height="946" frameX="-197" frameY="-42" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL right0002" x="407" y="939" width="614" height="943" frameX="-65" frameY="-45" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL right0003" x="1029" y="946" width="618" height="943" frameX="-62" frameY="-45" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL right0004" x="1655" y="947" width="618" height="943" frameX="-62" frameY="-45" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0004" x="2281" y="949" width="415" height="949" frameX="-195" frameY="-40" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0005" x="2704" y="952" width="424" height="951" frameX="-194" frameY="-38" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0006" x="3136" y="954" width="419" height="951" frameX="-194" frameY="-38" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0007" x="3563" y="954" width="397" height="952" frameX="-193" frameY="-37" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL idle0008" x="3968" y="954" width="398" height="952" frameX="-193" frameY="-37" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL left0000" x="4374" y="956" width="531" height="963" frameX="-29" frameY="-26" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL left0001" x="4" y="1890" width="525" height="963" frameX="-32" frameY="-26" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL left0002" x="537" y="1897" width="519" height="963" frameX="-35" frameY="-26" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL left0003" x="1064" y="1897" width="517" height="963" frameX="-36" frameY="-26" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL left0004" x="1589" y="1898" width="515" height="964" frameX="-37" frameY="-25" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL up0004" x="2112" y="1906" width="519" height="975" frameX="-74" frameY="-14" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL up0003" x="2639" y="1913" width="521" height="977" frameX="-73" frameY="-13" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL up0002" x="3168" y="1914" width="521" height="979" frameX="-74" frameY="-11" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL up0001" x="3697" y="1914" width="524" height="983" frameX="-74" frameY="-7" frameWidth="712" frameHeight="994" />
+  <SubTexture name="AL up0000" x="4229" y="1927" width="527" height="988" frameX="-74" frameY="-2" frameWidth="712" frameHeight="994" />
+</TextureAtlas>

@@ -1,0 +1,13 @@
+Original Mod Author
+SENKI::senki::Vs. Allegro Creator::https://gamebanana.com/members/1884212::0xFFF0425F
+
+Mod Porters
+Doggo::doggo::Porting of the mod and optimizing spritesheets::https://gamebanana.com/members/2402280::0xFFB3C6FD
+Unholywanderer04::unholy::Recreation of the dialogue system::https://gamebanana.com/members/1926602::0xFF3150BB
+Ralsi::ralsi::Shader for shading Boyfriend during each variant of the stage::https://gamebanana.com/members/1939328::0xFF444449
+
+Special Thanks
+Novikond::novi::Art Help (made the menu background for Story Mode)::https://gamebanana.com/members/1944617::0xFF28FFC4
+Maru::maru::Art Help (colored Allegro yellow for usage in Story Mode)::https://gamebanana.com/members/2018118::0xFFE9FF48
+Sammu::sammu::Combined the audio and video into one .mp4 file::https://gamebanana.com/members/1926602::0xFFBB3439
+AcheReal::ache::Drew Senki's credits icon & did the GameBanana promo art::https://gamebanana.com/members/2320854::0xFF93A5AF
