@@ -2,7 +2,7 @@ Original Mod Author
 SENKI::senki::Vs. Allegro Creator::https://gamebanana.com/members/1884212::0xFFF0425F
 
 Mod Porters
-Doggo::doggo::Porting of the mod and optimizing spritesheets::https://gamebanana.com/members/2402280::0xFFB3C6FD
+Doggo::doggo::Porting of the mod and optimizing spritesheets::https://gamebanana.com/members/2402280::0xFF83B4FD
 Unholywanderer04::unholy::Recreation of the dialogue system::https://gamebanana.com/members/1926602::0xFF3150BB
 Ralsi::ralsi::Shader for shading Boyfriend during each variant of the stage::https://gamebanana.com/members/1939328::0xFF444449
 
