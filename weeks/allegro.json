@@ -1,50 +1,50 @@
 {
-	"storyName": "Mysterious town of rhythm",
-	"difficulties": "Hard",
-	"hideFreeplay": false,
-	"weekBackground": "beatcity",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"weekBefore": "",
-	"startUnlocked": true,
-	"weekCharacters": [
-		"allegro",
-		"bf",
-		""
-	],
 	"songs": [
 		[
 			"Allegro",
 			"allegro",
 			[
-				167,
+				166,
 				255,
-				196
+				197
 			]
 		],
 		[
 			"Moderato",
 			"allegro",
 			[
-				167,
+				166,
 				255,
-				196
+				197
 			]
 		],
 		[
 			"Finale",
 			"allegroerr",
 			[
-				255,
+				254,
 				153,
-				112
+				113
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "beatcity",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"allegro",
+		"bf",
+		""
+	],
+	"storyName": "Mysterious town of rhythm",
 	"weekName": "Allegro Week",
-	"hiddenUntilUnlocked": false
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
 }

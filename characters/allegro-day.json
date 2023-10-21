@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "AL idle",
-			"indices": []
+			"indices": [],
+			"name": "AL idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "AL left",
-			"indices": []
+			"indices": [],
+			"name": "AL left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "AL down",
-			"indices": []
+			"indices": [],
+			"name": "AL down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "AL up",
-			"indices": []
+			"indices": [],
+			"name": "AL up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "AL right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AL right"
 		}
 	],
 	"no_antialiasing": false,
@@ -73,6 +73,6 @@
 		0,
 		0
 	],
-	"sing_duration": 3.10000000000001,
+	"sing_duration": 3,
 	"scale": 1
 }

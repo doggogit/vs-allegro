@@ -1,33 +1,37 @@
 local dialogueStuff = {} -- will hold the entire split dialogue.txt file
 function onCreatePost()
     if not seenCutscene and isStoryMode then
-        local bgColors = {['allegro'] = 'a14423', ['moderato'] = '6f2544', ['finale'] = '3c6a6f'}
+        local bgColors = {
+            ['allegro'] = 'a14423',
+            ['moderato'] = '6f2544',
+            ['finale'] = '3c6a6f'
+        }
         makeLuaSprite('diaBg', '', -200, -200)
         makeGraphic('diaBg', screenWidth * 1.3, screenHeight * 1.3, bgColors[songName:lower()])
         setObjectCamera('diaBg', 'hud')
         setObjectOrder('diaBg', getObjectOrder('scoreTxt') + 1)
         setProperty('diaBg.alpha', 0)
         addLuaSprite('diaBg')
-        
+
         runTimer('diaBgFadeIn', 0.83, 5)
-        
+
         local boxSprite = 'diaBoxDay'
         if songName:lower() == 'moderato' then
             boxSprite = 'diaBoxSunset'
         elseif songName:lower() == 'finale' then
             boxSprite = 'diaBoxNight'
         end
-    
-        makeAnimatedLuaSprite('robo', 'diaBoxes/Allegro_Dialogue', 100, 12)
+
+        makeAnimatedLuaSprite('robo', 'allegro/diaBoxes/Allegro_Dialogue', 100, 12)
         local animNames = {'neutral', 'talking neutral', 'pointing at himself', 'describing bg', 'excited', 'talking alt', 'sassy', 'semi-evil neutral', 'semi-evil talking', 'evil neutral', 'talking evil glow'}
         for i = 1, 11 do
-            addAnimationByPrefix('robo', 'enter'..i, animNames[i], 24, false)
+            addAnimationByPrefix('robo', 'enter' .. i, animNames[i], 24, false)
         end
         setObjectCamera('robo', 'hud')
         addLuaSprite('robo')
         setObjectOrder('robo', getObjectOrder('scoreTxt') + 1)
         setProperty('robo.visible', false)
-    
+
         makeAnimatedLuaSprite('bfPort', 'dialogue/BF_Dialogue', 750, 200)
         addAnimationByPrefix('bfPort', 'idle', 'BF LOOP', 24, false)
         setObjectCamera('bfPort', 'hud')
@@ -35,9 +39,9 @@ function onCreatePost()
         addLuaSprite('bfPort')
         setObjectOrder('bfPort', getObjectOrder('scoreTxt') + 2)
         setProperty('bfPort.visible', false)
-    
-        makeAnimatedLuaSprite('diaBox', 'diaBoxes/'..boxSprite, 0, 325)
-        addAnimationByPrefix('diaBox', 'open', 'Speech Bubble Normal Open',30, false)
+
+        makeAnimatedLuaSprite('diaBox', 'allegro/diaBoxes/' .. boxSprite, 0, 325)
+        addAnimationByPrefix('diaBox', 'open', 'Speech Bubble Normal Open', 30, false)
         addAnimationByIndices('diaBox', 'idle', 'Speech Bubble Normal Open', '13')
         setObjectCamera('diaBox', 'hud')
         setProperty('diaBox.width', 200)
@@ -47,16 +51,16 @@ function onCreatePost()
         addLuaSprite('diaBox', true)
         setObjectOrder('diaBox', getObjectOrder('scoreTxt') + 5)
         setProperty('diaBox.visible', false)
-    
-        makeLuaSprite('lilArrow', 'diaBoxes/al-textbox', 1042, 590)
+
+        makeLuaSprite('lilArrow', 'allegro/diaBoxes/al-textbox', 1042, 590)
         setGraphicSize('lilArrow', getProperty('lilArrow.width') * 4)
         setProperty('lilArrow.antialiasing', false)
         setObjectOrder('lilArrow', getObjectOrder('diaBox') + 1)
         setObjectCamera('lilArrow', 'hud')
         addLuaSprite('lilArrow')
         setProperty('lilArrow.visible', false)
-    
-        makeLuaText('dialogueTxt', '',  screenWidth * 0.6, 240, 500)
+
+        makeLuaText('dialogueTxt', '', screenWidth * 0.6, 240, 500)
         setObjectCamera('dialogueTxt', 'hud');
         setObjectOrder('dialogueTxt', getObjectOrder('diaBox') + 2)
         setTextColor('dialogueTxt', '3F2021')
@@ -65,8 +69,8 @@ function onCreatePost()
         addLuaText('dialogueTxt');
         setTextFont('dialogueTxt', "PhantomMuff Full Letters 1.1.5.ttf");
         setTextAlignment('dialogueTxt', 'left');
-    
-        makeLuaText('dropText', '',  screenWidth * 0.6, 242, 502)
+
+        makeLuaText('dropText', '', screenWidth * 0.6, 242, 502)
         setObjectCamera('dropText', 'hud');
         setObjectOrder('dropText', getObjectOrder('diaBox') + 1)
         setTextColor('dropText', 'D89494')
@@ -75,14 +79,14 @@ function onCreatePost()
         addLuaText('dropText');
         setTextFont('dropText', "PhantomMuff Full Letters 1.1.5.ttf");
         setTextAlignment('dropText', 'left');
-        
-        local leDiaPath = (currentModDirectory == '' and '' or currentModDirectory..'/')..'data/'..songName:lower()..'/dialogue.txt'
+
+        local leDiaPath = (currentModDirectory == '' and '' or currentModDirectory .. '/') .. 'data/' .. songName:lower() .. '/dialogue.txt'
         local diaExists = checkFileExists(leDiaPath)
         local initialText = diaExists and getTextFromFile(leDiaPath) or 'bf:oops!'
 
         dialogueStuff = split(initialText, ':')
         for i = 1, #dialogueStuff do
-            if dialogueStuff[i] == '' then 
+            if dialogueStuff[i] == '' then
                 table.remove(dialogueStuff, i)
             end
         end
@@ -91,7 +95,7 @@ end
 
 function split(s, delimiter)
     local result = {};
-    for match in (s..delimiter):gmatch("(.-)"..delimiter) do
+    for match in (s .. delimiter):gmatch("(.-)" .. delimiter) do
         table.insert(result, tostring(match));
     end
     return result;
@@ -126,7 +130,7 @@ end
 
 function setUpDialogue()
     if curDiaLine <= 1 then
-        playMusic('bg-'..songName:lower(), 0, true)
+        playMusic('bg-' .. songName:lower(), 0, true)
         soundFadeIn('', 1)
         setProperty('diaBox.visible', true)
         playAnim('diaBox', 'open')
@@ -139,21 +143,23 @@ function setUpDialogue()
     setTextString('dialogueTxt', '')
     setProperty('dialogueTxt.visible', true)
 
-    curDialogue = {dialogueStuff[curDiaLine], dialogueStuff[curDiaLine+1]} -- person talking, dialogue
+    curDialogue = {dialogueStuff[curDiaLine], dialogueStuff[curDiaLine + 1]} -- person talking, dialogue
 
     splitText = {}
-    for letter in curDialogue[2]:gmatch(".") do table.insert(splitText, letter) end
+    for letter in curDialogue[2]:gmatch(".") do
+        table.insert(splitText, letter)
+    end
 
     if curDialogue[1] ~= 'same' then
         if curDialogue[1] == 'bf' then
-            setProperty('bfPort.x',800)
+            setProperty('bfPort.x', 800)
             setProperty('robo.visible', false)
             setProperty('bfPort.visible', true)
             doTweenX('bfPortIn', 'bfPort', 750, 0.1, 'circOut')
         else
             setProperty('robo.visible', true)
             setProperty('bfPort.visible', false)
-            playAnim('robo', 'enter'..curDialogue[1]:gsub('al', ''))
+            playAnim('robo', 'enter' .. curDialogue[1]:gsub('al', ''))
         end
     end
 
@@ -167,7 +173,9 @@ end
 function onTimerCompleted(t, l, ll)
     if t == 'diaBgFadeIn' then
         setProperty('diaBg.alpha', getProperty('diaBg.alpha') + ((1 / 5) * 0.7))
-        if getProperty('diaBg.alpha') > 0.7 then setProperty('diaBg.alpha', 0.7) end
+        if getProperty('diaBg.alpha') > 0.7 then
+            setProperty('diaBg.alpha', 0.7)
+        end
     end
     if t == 'leave' then
         canAdvance = false
@@ -194,20 +202,20 @@ function onTimerCompleted(t, l, ll)
 
     if t == 'addTx' then
         if #splitText ~= lettersShown then
-            lettersShown = lettersShown + 1 
-        else 
-            finishedLine = true 
+            lettersShown = lettersShown + 1
+        else
+            finishedLine = true
             setProperty('lilArrow.visible', true)
         end
 
         if not finishedLine then
             yappin = yappin .. splitText[lettersShown]
-            playSound('allegroText', 1, 'alle') 
+            playSound('allegroText', 1, 'alle')
         end
 
         if inDialogue then
             setTextString('dialogueTxt', yappin)
-            runTimer('addTx', 0.04 / playbackRate) 
+            runTimer('addTx', 0.04 / playbackRate)
         end
     end
     if t == 'startDialogue' then
@@ -222,7 +230,7 @@ function onUpdate()
         setProperty('dropText.alpha', getProperty('dialogueTxt.alpha'))
 
         local diaAni = getProperty('diaBox.animation.curAnim.name')
-        if diaAni == 'open' and getProperty('diaBox.animation.curAnim.finished') then        
+        if diaAni == 'open' and getProperty('diaBox.animation.curAnim.finished') then
             playAnim('diaBox', 'idle')
         end
 

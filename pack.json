@@ -1,11 +1,8 @@
 {
 	"name": "Vs. Allegro",
 	"description": "WELCOME TO METRONOPOLIS, the mysterious city where everything works by music and rhythm. Meet your tour guide robot Allegro and sing some cool songs together!",
-	"restart": true,
+	"restart":true,
 	"runsGlobally": false,
-	"color": [
-		255,
-		153,
-		112
-	]
+	"color": [255, 153, 112],
+	"discordRPC": "863222024192262205"
 }
